@@ -1,0 +1,215 @@
+
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+	div#nav
+	{
+		background-color: white;
+		position: fixed;
+		z-index: 9999;
+		width: 100%;
+	}
+	div#nav ul
+	{
+		display: inline-block;
+		width: 100%;
+		list-style-type: none;
+		text-align: center;
+		height: 100px;
+		
+	}
+	div#nav ul li
+	{
+		display: inline-block;
+		margin-right: 2%;
+		vertical-align: middle;
+		list-style-type: none;
+	}
+	div#nav ul li a
+	{
+		text-decoration: none;
+		color: #5c5d5d;
+		font-weight: 800;
+		font-size: 0.7em;
+		font-family: arial;
+		display: inline-block;
+		height: 25px;
+
+	}
+	div#nav ul li a:hover
+	{
+		color: #03fd9c;
+		
+	}
+	div#nav ul li:first-child
+	{
+		margin-right: 4%;
+	}
+
+	/* Slideshow container */							/* scriptworkslideshow */
+.slideshow-container 
+{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  padding-top: 100px;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */						/* scriptworkend */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+div#mainservicess
+{
+	font-family: arial;
+	text-align: center;
+	height: 1380px;
+	padding-top: 70px;
+}
+a
+{
+	text-decoration: none;
+}
+div#biketypes ul
+{
+	list-style-type: none;
+	display: inline-block;
+
+}
+div#biketypes ul li
+{
+	display: inline-block;
+	line-height: 80px;
+}
+div#biketypes ul li a
+{
+	height: 80px;
+	width: 200px;
+	display: inline-block;
+	color: #5c5d5d;
+	font-weight: bold;
+}
+div#biketypes ul li a:hover
+{
+	background-color: #03fd9c;
+	color: white;
+}
+div#bikeimages
+{
+	height: 520px;
+	background-color: #f4f6f9;
+
+}
+div.sub
+{
+			float:left;
+			margin-left: 80px;
+			background-color: white;
+			height: 220px;
+			width: 500px;
+			margin-top: 20px;
+			margin-right: 92px;
+}
+.bikename
+{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.bikefare
+{
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.inpng
+{
+	margin-top: 20px;
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+    border-radius: 3px;
+}
+.inpng:hover
+{
+		width: 100px;
+		border-radius: 3px;
+}
+.aboutheading
+{
+	padding-top: 20px;
+	margin-left: 80px;
+	font-family: arial;
+	font-weight: 800;
+	margin-right: 80px;
+	color: #5c5d5d;
+}
+.aboutbikershub
+{
+	padding-top: 10px;
+	margin-left: 80px;
+	font-family: arial;
+	font-size: 1.0em;
+	font-weight: 500;
+	margin-right: 80px;
+	color: #5c5d5d;
+	line-height: 22px;
+}
+div#socialmedia
+{
+	height: 150px;
+	background-color: #03fd9c;
+	text-align: center;
+	font-family: arial;
+	color: white;
+}
+
+.sociallogo
+{
+	margin:8px;
+	transition: width 2s;
+}
+
+.sociallogo:hover
+{
+	-ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(30deg); /* Standard syntax */
+    width: 40px;
+
+}

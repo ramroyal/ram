@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>bikershub</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link href="css/animate.css" rel="stylesheet"/>
+  <link href="css/waypoints.css" rel="stylesheet"/>
+  <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+  <script src="js/waypoints.js" type="text/javascript"></script>
+  <style type="text/css">
+    #tariffheading
+    {
+      padding-top: 120px;
+      text-align: center;
+       font-family: arial;
+      color: #03fd9c; 
+      font-weight: bolder;
+    }
+    #maintariff
+    {
+      font-family: arial;
+      height: 810px;
+      background-color: #f4f6f9;
+    }
+    #charges
+    {
+
+      width: 60%;
+      float: left;
+      height: 560px;
+      margin-top: 50px;
+      text-align: center;
+      margin-right: 50px;
+    }
+    #bookbike
+    {
+  
+      width: 35%;
+      float: left;
+      height: 550px;
+      margin-top: 50px;
+    }
+    table
+    {
+      
+      margin-left: 50px;
+      margin-top: 30px;
+      padding: 8px;
+      width: 94%;
+    }
+    th
+    {
+      border-bottom: 1px solid black;
+      padding: 10px;
+    }
+    td
+    {
+      border-bottom: 1px solid black;
+      padding: 10px;
+    }
+    .bookbikeform
+    {
+      border: 1px solid black;
+      padding-top: 50px;
+      padding-bottom: 30px;
+      border-radius: 10px;
+      width: 430px;
+      background: linear-gradient(#03fd9c,black);
+      color: white;
+      box-shadow: 3px 3px 3px  black;
+   
+
+    }
+    form
+    {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+      padding-top:10px;
+      font-size: 14px;
+    }
+    .forms
+    {
+      height: 30px;
+      padding-left: 10px;
+      font-weight: bold;
+      width: 220px;
+    }
+    .formnames
+    {
+      width: 150px;
+      display: inline-block;
+    }
+    .button
+    {
+      height: 35px;
+      width: 90px;
+      font-weight: 600;
+      color: black;
+      border-radius: 10px;
+      font-size: 1.0em;
+      letter-spacing: 2px;
+      font-weight: 800;
+    }
+    .button:hover
+    {
+      background-color: black;
+       color: white;
+    }
+  </style>
+</head>
+<body>  
+	<div id="nav">                                                    <!-- navbarstart-->
+		<ul>
+			<li><img src="images/comlogo.png" width="100px" height="100px"></li>
+			<li><a href="home.html"> HOME</a></li>
+			<li><a href="about.html#mainservicess">ABOUT US</a></li>
+			<li><a href="tariff.html" style="color: #03fd9c;">TARIFF</a></li>
+			<li><a href="investment.html">INVESTMENTS PLANS</a></li>
+			<li><a href="terms.html">TERMS AND CONDITIONS</a></li>
+			<li><a href="contact.html">CONTACT US</a></li>
+		</ul>
+	</div>                                                            <!-- navbarend-->
+
+  <div id="maintariff">                               
+   <h1 id="tariffheading">TARIFFS</h1>
+   <div id=charges>
+     <h3 align="center">BIKERSHUB RENTEL CHARGES</h3>
+     <table  cellspacing="0px" width="90%">
+     <tr>
+      <th>Model</th>
+      <th>1 Day</th>
+      <th>7 Days</th>
+      <th>15 Days</th>
+      <th>30 Days</th>
+      <th>Deposit</th>
+     </tr>
+     <tr>
+       <td>Activa</td>
+       <td>400</td>
+       <td>2400</td>
+       <td>4800</td>
+       <td>9600</td>
+       <td>3000</td>
+     </tr>
+     <tr>
+       <td>Yamaha fz-s</td>
+       <td>600</td>
+       <td>3600</td>
+       <td>7200</td>
+       <td>14,400</td>
+       <td>5000</td>
+     </tr>
+     <tr>
+       <td>Yamaha Fazer</td>
+       <td>800</td>
+       <td>4800</td>
+       <td>9600</td>
+       <td>19,200</td>
+       <td>5000</td>
+     </tr>
+     <tr>
+       <td>Avenger 220</td>
+       <td>850</td>
+       <td>5100</td>
+       <td>10,000</td>
+       <td>18,000</td>
+       <td>5000</td>
+     </tr>
+     <tr>
+       <td>Suzuki Gixer SF</td>
+       <td>1200</td>
+       <td>7200</td>
+       <td>14,400</td>
+       <td>25,000</td>
+       <td>5000</td>
+     </tr>
+     <tr>
+       <td>Yamaha R15</td>
+       <td>1400</td>
+       <td>8400</td>
+       <td>16,000</td>
+       <td>32,500</td>
+       <td>5000</td>
+     </tr>
+     <tr>
+       <td>Bajaj Pulsar</td>
+       <td>600</td>
+       <td>3600</td>
+       <td>7200</td>
+       <td>14,400</td>
+       <td>5000</td>
+     </tr>
+      <tr>
+       <td>KTM Duke 200</td>
+       <td>1450</td>
+       <td>8700</td>
+       <td>17,400</td>
+       <td>34,000</td>
+       <td>10,000</td>
+     </tr>
+      <tr>
+       <td>KTM RC 200</td>
+       <td>1500</td>
+       <td>9000</td>
+       <td>19,000</td>
+       <td>37,000</td>
+       <td>10,000</td>
+     </tr>
+      <tr style="border-bottom: 0px;">
+       <td>Royal Enfield classic</td>
+       <td>1250</td>
+       <td>7500</td>
+       <td>16,250</td>
+       <td>32,500</td>
+       <td>5000</td>
+     </tr>
+   </table><br>
+   <p style="font-weight: 500; font-size: 1.1em; padding-left: 50px;">Note:We will deliver the bike at your door step. Delivery charge 300/- and pick up service charges 300/-. Also, subject to availability of crew member.</p>
+   </div>
+   <div id="bookbike">
+     <div class="bookbikeform os-animation" data-os-animation="bounceInDown" data-os-animation-delay="0.2s">
+       <h3 align="center">BOOK A BIKE</h3>
+       <form>
+    <span class="formnames">YOUR NAME</span>
+    <input type="text" name="txtusername" placeholder="YOUR NAME" class="forms"><br><br>
+    <span class="formnames">YOUR NUMBER</span>
+    <input type="phone" name="phone" placeholder="YOUR NUMBER" class="forms"><br><br>
+    <span class="formnames">YOUR MAIL</span>
+   <input type="email" name="emailusername" placeholder="YOUR MAIL ID" class="forms"><br><br>
+   <span class="formnames">SELECT BIKE</span>
+    <select style="height: 40px; width: 240px; font-size: 1.0em;" name="selectbasic" name="bike">
+      <option value="Honda Activa 3G">Honda Activa 3G</option>
+      <option value="Yamaha FZ-S">Yamaha FZ-S</option>
+      <option value="Yamaha Fazer">Yamaha Fazer</option>
+      <option value="Yamaha R15">Yamaha R15</option>
+      <option value="Bajaj Avenger 220cc">Bajaj Avenger 220cc</option>
+      <option value="Suzuki Gixxer SF">Suzuki Gixxer SF</option>
+      <option value="Royal Enfield Classic">Royal Enfield Classic</option>
+      <option value="KTM RC 200">KTM RC 200</option>
+      <option value="KTM Duke 200">KTM Duke 200</option>
+      <option value="Bajaj Pulsar">Bajaj Pulsar</option>
+     </select><br><br><br>
+     Ph : <br>+91 9492413123 <br>+91 9949310175<br><br><br>
+     <button type="submit" class="button">SUBMIT</button>
+       </form>
+       
+     </div>
+   </div>
+   <div style="clear: left;"></div>
+
+  </div>  
+
+    
+  <div id="socialmedia">                                                 <!-- socialmediastart -->
+    <h3 style="padding-top: 10px; 
+                font-size: 1.5em; 
+                font-weight: 500;">FOLLOW US</h3><br>
+    <a href="https://www.facebook.com/pandu.naidu.7902" target="-blank">
+    <img src="images/facebook.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/twitter.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/istagram.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/googleplus.png" width="35px" height="35px;" class="sociallogo">
+    </a><br>
+   <p style="padding-top: 4px;"> &copy; All copyrights reserved</p>
+  </div>                                                          <!-- socialmediaend -->
+
+
+</body>
+</html>

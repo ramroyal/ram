@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>bikershub</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link href="css/animate.css" rel="stylesheet"/>
+  <link href="css/waypoints.css" rel="stylesheet"/>
+  <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+  <script src="js/waypoints.js" type="text/javascript"></script>
+  <style type="text/css">
+    #investmentheading
+    {
+      padding-top: 120px;
+      text-align: center;
+      font-family: arial;
+      color: #03fd9c; 
+      font-weight: bolder;
+    }
+    #maininvestment
+    {
+      font-family: arial;
+      height: 1020px;
+      background-color: #f4f6f9;
+    }
+    #plans
+    {
+
+      width: 60%;
+      float: left;
+      margin-top: 50px;
+      text-align: left;
+      height: 800px;
+      margin-right: 50px;
+    }
+    .hplans
+    {
+      padding-left: 50px;
+      padding-top: 20px;
+      text-align: left;
+    }
+    .pplans
+    {
+      padding-left: 50px;
+      text-align: left;
+      padding-top: 10px;
+      line-height: 25px;
+    }
+    #bookbike
+    {
+  
+      width: 35%;
+      float: left;
+      height: 550px;
+      margin-top: 50px;
+    }
+    
+    .bookbikeform
+    {
+      border: 1px solid black;
+      padding-top: 50px;
+      padding-bottom: 30px;
+      border-radius: 10px;
+      width: 430px;
+      background: linear-gradient(#03fd9c,black);
+      color: white;
+      box-shadow: 3px 3px 3px  black;
+    }
+    form
+    {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+      padding-top:10px;
+      font-size: 14px;
+    }
+    .forms
+    {
+      height: 30px;
+      padding-left: 10px;
+      font-weight: bold;
+      width: 220px;
+    }
+    .formnames
+    {
+      width: 150px;
+      display: inline-block;
+    }
+    .button
+    {
+      height: 35px;
+      width: 90px;
+      font-weight: 600;
+      color: black;
+      border-radius: 10px;
+      font-size: 1.0em;letter-spacing: 2px;
+      font-weight: 800;
+    }
+    .button:hover
+    {
+      background-color: black;
+       color: white;
+    }
+
+  </style>
+</head>
+<body>  
+	<div id="nav">                                                    <!-- navbarstart-->
+		<ul>
+			<li><img src="images/comlogo.png" width="100px" height="100px"></li>
+			<li><a href="home.html"> HOME</a></li>
+			<li><a href="about.html#mainservicess">ABOUT US</a></li>
+			<li><a href="tariff.html">TARIFF</a></li>
+			<li><a href="investment.html">INVESTMENTS PLANS</a></li>
+			<li><a href="terms.html">TERMS AND CONDITIONS</a></li>
+			<li><a href="contact.html" style="color: #03fd9c;">CONTACT US</a></li>
+		</ul>
+	</div>                                                            <!-- navbarend-->
+
+  <div id="maininvestment">                               
+   <h1 id="investmentheading">CONTACT US</h1>
+   <div id="plans">
+     <iframe style="padding-left: 50px; text-align: left;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.888884627103!2d78.52018131443853!3d17.36907898808956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98f64b5662fb%3A0xc469404ba15feea9!2sMAAC-+Maya+Academy+Of+Advanced+Cinematics!5e0!3m2!1sen!2sin!4v1498100947539" width="770" height="473" frameborder="0" style="border:0" allowfullscreen></iframe> <br><br>
+
+      <h3 class="hplans">Address:</h3>
+
+     <p class="pplans"> House Number : 16-2-740/22 <br>
+      Dilsukh nagar<br>
+      Hyderabad<br>
+      Telangana<br>
+      500036<br>
+
+      Whatsapp : +91 9492413123<br>
+      Phone : +91 9949310175</p>
+     
+   </div>
+   <div id="bookbike">
+     <div class="bookbikeform os-animation" data-os-animation="bounceInDown" data-os-animation-delay="0.2s">
+       <h3 align="center">BOOK A BIKE</h3>
+       <form>
+    <span class="formnames">YOUR NAME</span>
+    <input type="text" name="txtusername" placeholder="YOUR NAME" class="forms"><br><br>
+    <span class="formnames">YOUR NUMBER</span>
+    <input type="phone" name="phone" placeholder="YOUR NUMBER" class="forms"><br><br>
+    <span class="formnames">YOUR MAIL</span>
+   <input type="email" name="emailusername" placeholder="YOUR MAIL ID" class="forms"><br><br>
+   <span class="formnames">SELECT BIKE</span>
+    <select style="height: 40px; width: 240px; font-size: 1.0em;" name="selectbasic" name="bike">
+      <option value="Honda Activa 3G">Honda Activa 3G</option>
+      <option value="Yamaha FZ-S">Yamaha FZ-S</option>
+      <option value="Yamaha Fazer">Yamaha Fazer</option>
+      <option value="Yamaha R15">Yamaha R15</option>
+      <option value="Bajaj Avenger 220cc">Bajaj Avenger 220cc</option>
+      <option value="Suzuki Gixxer SF">Suzuki Gixxer SF</option>
+      <option value="Royal Enfield Classic">Royal Enfield Classic</option>
+      <option value="KTM RC 200">KTM RC 200</option>
+      <option value="KTM Duke 200">KTM Duke 200</option>
+      <option value="Bajaj Pulsar">Bajaj Pulsar</option>
+     </select><br><br><br>
+     Ph : <br>+91 9492413123 <br>+91 9949310175<br><br><br>
+     <button type="submit" class="button">SUBMIT</button>
+       </form>
+       
+     </div><br><br>
+     <div>
+     <img src="images/extrabike.png" width="300px" 
+                                    height="210px;" 
+                                    style="margin-left: 85px;
+                                    margin-top: 99px;">
+      </div>
+   </div>
+   <div style="clear: left;"></div>
+
+  </div>  
+  
+
+    
+  <div id="socialmedia">                                                 <!-- socialmediastart -->
+    <h3 style="padding-top: 10px; 
+                font-size: 1.5em; 
+                font-weight: 500;">FOLLOW US</h3><br>
+    <a href="https://www.facebook.com/pandu.naidu.7902" target="-blank">
+    <img src="images/facebook.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/twitter.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/istagram.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/googleplus.png" width="35px" height="35px;" class="sociallogo">
+    </a><br>
+   <p style="padding-top: 4px;"> &copy; All copyrights reserved</p>
+  </div>                                                          <!-- socialmediaend -->
+
+
+</body>
+</html>

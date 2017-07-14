@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>bikershub</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link href="css/animate.css" rel="stylesheet"/>
+  <link href="css/waypoints.css" rel="stylesheet"/>
+  <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+  <script src="js/waypoints.js" type="text/javascript"></script>
+
+</head>
+<body>  
+	<div id="nav">                                                    <!-- navbarstart-->
+		<ul>
+			<li><img src="images/comlogo.png" width="100px" height="100px"></li>
+			<li><a href="home.html" style="color: #03fd9c;"> HOME</a></li>
+			<li><a href="about.html#mainservicess">ABOUT US</a></li>
+			<li><a href="tariff.html">TARIFF</a></li>
+			<li><a href="investment.html">INVESTMENTS PLANS</a></li>
+			<li><a href="terms.html">TERMS AND CONDITIONS</a></li>
+			<li><a href="contact.html">CONTACT US</a></li>
+		</ul>
+	</div>                                                            <!-- navbarend-->                               
+
+	<div class="slideshow-container">                                 <!-- slideshowstart -->                  
+
+<div class="mySlides fade">
+  <img src="images/firstslide.jpg" style="width:100%; height: 800px;">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/fourthslide.jpg" style="width:100%; height: 800px;">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/thirdslide.jpg" style="width:100%; height: 800px;">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+</script><br><br>                                                  <!-- slideshowend -->
+
+<div id="mainservicess">                                           <!-- mainservicess -->
+  <h1 align="center" style="font-family: arial; 
+                            font-size: 1.7em; color: #03fd9c; 
+                            padding-top: 35px;
+                            font-weight: 800;">
+  SERVICESS
+  </h1><br><br>
+  
+  <h3 align="center" style="font-family: arial; color: #5c5d5d;">
+  Bikerschoice is a unique source of comfort, style at a very pocket friendly price. We offer well maintained motorcycles with an amazing at your door step service.
+  </h3><br><br><br>
+
+  <div id="biketypes">
+    <ul>
+       <li><a href="#mainservicess" style="background-color: #03fd9c; color: white;">COMPUTER BIKES</a></li>
+       <li><a href="classicbikes.html#mainservicess">CLASSIC BIKES</a></li>
+       <li><a href="scooters.html#mainservicess">SCOOTERS</a></li>
+    </ul>
+  </div>
+  <div id="bikeimages">
+        <div class="sub os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.2s">
+      <img src="images/fazer.png" width="220px" height="180px" style="float: left; "/><br><br>
+      <span class="bikename">YAMAHA FAZER</span><br><br>
+      <span class="bikefare">1000 Rs per day <br>
+      Security deposit : 5000Rs</span><br>
+      <a href="tariff.html">
+      <img src="images/inpng.png" height="35px" width="80px" class="inpng">
+      </a>
+    </div>
+
+      <div class="sub os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0.2s">
+      <img src="images/zixer.png" width="220px" height="200px" style="float: left; "/><br><br>
+       <span class="bikename">SUZIKI ZIXXER SF</span><br><br>
+      <span class="bikefare">1000 Rs per day <br>
+      Security deposit : 5000Rs</span><br>
+      <a href="tariff.html">
+      <img src="images/inpng.png" height="35px" width="80px" class="inpng">
+      </a>
+    </div>
+
+    <div class="sub os-animation" data-os-animation="bounceInLeft" data-os-animation-delay="0.2s" style="clear:left;">
+      <img src="images/r15.png" width="220px" height="180px" style="float: left; "/><br><br>
+       <span class="bikename">YAMAHA R15</span><br><br>
+      <span class="bikefare">1000 Rs per day <br>
+      Security deposit : 5000Rs</span><br>
+      <a href="tariff.html">
+      <img src="images/inpng.png" height="35px" width="80px" class="inpng">
+      </a>
+    </div>
+
+    <div class="sub os-animation" data-os-animation="bounceInRight" data-os-animation-delay="0.2s" data-os-animation="repeat">
+      <img src="images/fzs.png" width="220px" height="200px" style="float: left; "/><br><br>
+       <span class="bikename">YAMAHA FZ-S</span><br><br>
+      <span class="bikefare">1000 Rs per day <br>
+      Security deposit : 5000Rs</span><br>
+      <a href="tariff.html">
+      <img src="images/inpng.png" height="35px" width="80px" class="inpng">
+      </a>
+    </div>
+    <div style="clear: left;"></div>
+</div>
+
+    <h1 style="padding-top: 20px; color: #03fd9c; font-weight: 800;">ABOUT BIKERSHUB</h1>
+    <h5 align="left" class="aboutheading">ABOUT US:</h5>
+    <p align="justify" class="aboutbikershub">Bikerschoice is completely a customer centric company, hence customer satisfaction is our only goal.Bikerschoice is a source of comfort,style,convince and pride.Bikerschoice outmost priority is making quality; we maintain all our bikes to deliver continuous performance.The rental charges are designed by keeping the budget in mind & preferences of the customers with the assistance of experts.Bikerschoice as a brand commits the punctuality, reliability, and quality of service for our customers.Here, we are to give our efficient, competitive and reliable service to all our customers those who are availing our services and those who are not availing right now, but surely they will avail it in very near future.</p><br>
+   <p align="justify" class="aboutbikershub"> What better way to see places? May be on the back on a KTM(RC 200)? Everyone can be part of the dream of motorcycling with the help of Bikerschoice Motorcycle Rental Services.We are the largest motorcycle rental company in Hyderabad, we know motorcycles and we know what motorcycle riders need. We offer well maintained, latest model motorcycles is just what you need to get where you're going in superb style having the time of your live on the way. We have the widest selection of motorcycles for rent a from us. You can choose between latest model R15,FZ-S,SUZUKI gixer sf,Classic Enfield 500's, Avengers, Pulsars, Hero Karizma, Honda Activa and many more.
+    <h5 align="left" class="aboutheading">OUR VISION:</h5>
+    <p align="left" class="aboutbikershub">To provide safest, reliable, affordable and dream motorcycles for rental services in hyderabad.</p>
+    <h5 align="left" class="aboutheading">WHY ONLY US:</h5>
+    <p align="justify" class="aboutbikershub">We will not haunt you with hidden charges. Bikerschoice is a trustworthy platform and your money is safe with us. So, chill Guys! Take a test drive to see how smooth your ride is going to be filled with thrill. We assure you that the bike you are going to hire is exclusively meant for you. No need to go and search for the bikes and get cheated. The home work has already been done by Bikerschoice. We strive to give you best offer.</p>
+
+  </div>                                                    <!-- mainservicessend -->
+
+  <div id="socialmedia">                                     <!-- socialmediastart -->
+    <h3 style="padding-top: 10px; 
+                font-size: 1.5em; 
+                font-weight: 500;">FOLLOW US</h3><br>
+    <a href="https://www.facebook.com/pandu.naidu.7902" target="-blank">
+    <img src="images/facebook.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/twitter.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/istagram.png" width="35px" height="35px;" class="sociallogo">
+    </a>
+    <a href="#">
+    <img src="images/googleplus.png" width="35px" height="35px;" class="sociallogo">
+    </a><br>
+   <p style="padding-top: 4px;"> &copy; All copyrights reserved</p>
+  </div>                                                          <!-- socialmediaend -->
+
+
+</body>
+</html>
